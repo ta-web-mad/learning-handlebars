@@ -1,0 +1,12 @@
+<div class="singles-wrapper">
+    <h1>Los solteros</h1>
+    <div>
+        {{#each singles}}
+        <div class="person">
+            <img src={{this.photo}} alt={{this.name}} />
+            <h3>Nombre: {{this.name}}</h3>
+            <p>Edad: {{this.age}}</p>
+        </div>
+        {{/each}}
+    </div>
+</div>
